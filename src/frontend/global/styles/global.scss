@@ -1,10 +1,5 @@
-html {
-  font-size: 10px;
-}
+@import './colors.scss';
 
 body {
-  font-size: 1.8rem;
-  margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: $background-principal;
 }

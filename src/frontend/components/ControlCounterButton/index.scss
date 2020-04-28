@@ -1,0 +1,20 @@
+.controlCounterButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+
+  &.ui.inverted.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.add.icon.controlCounterButton {
+  margin: 0 !important;
+}
+
+.minus.icon.controlCounterButton {
+  margin: 0 !important;
+}

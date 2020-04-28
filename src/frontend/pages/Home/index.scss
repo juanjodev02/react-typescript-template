@@ -1,0 +1,8 @@
+@import '../../global/styles/global.scss';
+.home {
+  min-height: 100vh;
+  background-color: $background-principal;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}

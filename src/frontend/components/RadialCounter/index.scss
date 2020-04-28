@@ -1,0 +1,15 @@
+@import '../../global/styles/colors.scss';
+
+.radialContainer {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  background-color: $ligth-green;
+  color: $font-ligth;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}

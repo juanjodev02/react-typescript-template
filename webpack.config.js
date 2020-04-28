@@ -27,7 +27,6 @@ module.exports = {
       {
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
-        exclude: /node_modules/,
       },
       { test: /\.(js|jsx)$/, loader: 'babel-loader', exclude: /node_modules/ },
       {
@@ -40,6 +39,14 @@ module.exports = {
         test: /\.js$/,
         loader: 'source-map-loader',
         exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader',
+      },
+      {
+        test: /\.(jpg|png|gif|jpeg|woff|woff2|eot|ttf|svg)$/,
+        loader: 'url-loader?limit=100000',
       },
     ],
   },

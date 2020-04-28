@@ -1,0 +1,20 @@
+@import '../../global/styles/colors.scss';
+
+.counter {
+  border: 2px solid $font-ligth;
+  height: min-content;
+  color: $font-ligth;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 25px;
+  text-align: center;
+  &__container {
+    display: flex;
+  }
+
+  &__title {
+    margin: 0 auto 25px auto;
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
