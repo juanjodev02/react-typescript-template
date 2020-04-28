@@ -9,7 +9,7 @@ module.exports = {
   entry: ['./src/frontend/index.tsx'],
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, '/dist'),
+    path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
@@ -20,7 +20,6 @@ module.exports = {
     historyApiFallback: true,
     port: PORT,
     hot: true,
-    compress: true,
   },
   module: {
     rules: [
