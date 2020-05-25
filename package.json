@@ -12,7 +12,7 @@
   "author": "Juanjo Jaramillo",
   "license": "MIT",
   "dependencies": {
-    "@types/react-redux": "^7.1.7",
+    "@types/react-redux": "^7.1.8",
     "@types/redux": "^3.6.31",
     "core-js": "^3.6.5",
     "dotenv": "^8.2.0",
